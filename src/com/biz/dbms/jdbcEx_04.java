@@ -31,8 +31,5 @@ public class jdbcEx_04
 			{
 				e.printStackTrace();
 			}
-			
-			System.out.println(DBContract.ORDER_INSERT);
-			System.out.println("INSERT INTO tbl_order(o_seq, o_date, o_num, o_cnum, o_pcode) VALUES (seq_order.NEXTVAL, '2020-07-22', 'O00001', 'C0032', 'P00001');");
 	}
 }
